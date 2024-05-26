@@ -58,7 +58,7 @@ function App() {
 
       setLoading(true);
 
-      const response = await axios.post("http://localhost:4000/ai/ask", {
+      const response = await axios.post("https://vacation-ai-backend.onrender.com/ai/ask", {
         destination,
         reason,
         startDate,
